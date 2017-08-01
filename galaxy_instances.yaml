@@ -1,7 +1,6 @@
 # List of (public) Galaxy instances on which some subset of the tutorials can be run
 #
-# You can reference these in the metadata of your tutorial
-
-galaxies:
-    - name: usegalaxy
-      url: https://usegalaxy.org/
+# They are used in the metadata of the tutorials
+- name: usegalaxy
+  url: https://usegalaxy.org/
+  contact: 
