@@ -46,7 +46,7 @@ layout: base
                                 {% for material in topic.material %}
                                     {% if material.enable != "false" %}
                                         {% if material.type == "introduction" %}
-                                            <li><a href="{{ site.url }}/{{ page.url }}/slides/{{ material.name }}.html">{{ material.title }}</a></li>
+                                            <li><a href="{{ site.url }}/topics/{{ topic.name }}/slides/{{ material.name }}.html">{{ material.title }}</a></li>
                                         {% endif %}
                                     {% endif %}
                                 {% endfor %}
